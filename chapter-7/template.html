@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Liquid template</title>
+  </head>
+  <body>
+    <h1>Teacher: {{ model.Name }}</h1>
+    <ul>
+      {% for item in model.Students %}
+        <li>{{ item | upcase }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>

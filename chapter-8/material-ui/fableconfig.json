@@ -1,0 +1,21 @@
+{
+    "projFile": ["src/main.fsx", "src/renderer.fsx"],
+    "coreLib": "fable-core/umd",
+    "outDir": "temp",
+    "module": "commonjs",
+    "sourceMaps": true,
+    "scripts": {
+        "prebuild": "npm install",
+        "postbuild": "node ../../node_modules/webpack/bin/webpack"
+    },
+    "targets": {
+        "debug": {
+            "watch": true,
+            "symbols": ["DEBUG"],
+            "scripts": {
+                "postbuild": "",
+                "postbuild-once": "node ../../node_modules/webpack/bin/webpack --watch"
+            }
+        }
+    }
+}

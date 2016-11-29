@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Require.js is a tool to asynchrously load JS scripts in runtime -->
+    <script src="../node_modules/requirejs/require.js"></script>
+  </head>
+  <body>
+    <div id="content"></div>
+    <script>
+        // Tell Require.js where to find the dependencies
+        // Paths in Require.js must always omit the .js extension
+        requirejs.config({
+            paths: {
+                'fable-core': '../node_modules/fable-core/umd',
+                'react': '../node_modules/react/dist/react',
+                'react-dom': '../node_modules/react-dom/dist/react-dom'
+            }
+        });
+        // Now we load our custom script
+        requirejs(["Fable"]);
+    </script>
+  </body>
+</html>
