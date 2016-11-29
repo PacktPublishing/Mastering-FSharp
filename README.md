@@ -1,4 +1,4 @@
-#Mastering FSharp
+#Mastering __F#__
 This is the code repository for [Mastering F#](https://www.packtpub.com/application-development/mastering-f?utm_source=github&utm_medium=repository&utm_campaign=9781784393434), published by [Packt](www.packtpub.com). It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book
 F# is a multi-paradigm programming language that encompasses object-oriented, imperative, and functional programming language properties. Now adopted in a wide range of application areas and is supported both by industry-leading companies who provide professional tools and by an active open community, F# is rapidly gaining popularity as it emerges in digital music advertising, creating music-focused ads for Spotify, Pandora, Shazam, and anywhere on the web.
